@@ -1,10 +1,10 @@
 # Neuroeconomics of individual differences in saccadic decisions  
 This is the official repository for the paper:
-> Thomas, T., Hoppe, D., Rothkopf, C. A. (2022). Neuroeconomics of individual differences in saccadic decisions. [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.06.03.494508v1)
+> Thomas, T., Hoppe, D., Rothkopf, C. A. (2022). The neuroeconomics of individual differences in saccadic decisions. [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.06.03.494508v1)
 
 ## Content
-- **Experiment**: In the [experiment](./experiment) folder, you can find the original experiment script, which was used to conduct the experiment.
-*Warining*: Since the experiment was conducted quite a while ago, the code might not work with today's versions of the used packages.
+- **Experiment**: In the [experiment](./experiment) folder, you can find the original experiment script, which was used to conduct the experiment.  
+*Warning*: Since the experiment was conducted quite a while ago, the code might not work with today's versions of the used packages.
 - **Model Estimation**: We also provide code to estimate the models described in the paper.
 Installation and Usage is described below.
 - **Data**: In the [data](./data) folder, we provide two things.
