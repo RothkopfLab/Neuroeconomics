@@ -11,6 +11,5 @@ include("utils.jl")
 include("graph_model.jl")
 
 # exports
-export sample_single_subj_chain_lognormal
 
 end
