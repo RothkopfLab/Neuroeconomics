@@ -23,6 +23,8 @@ julia> using NEEM, CSV, DataFrames
 
 julia> decisions = CSV.File("path/to/decisions.csv") |> DataFrame
 
-julia> chain = sample_single_subject_lognormal(decisions, "subject_id")
+julia> chain = sample_single_subject_chain(decisions, "subject_id"; noise_dist=:lognormal, num_samples=10000)
 ```
 Chain is now a single Hamiltonian Monte Carlo chain of posterior samples over all parameters of this single subject.
+`noise_dist` can also be `:normal` (or `:gauss`).
+Currently it is not possible to change the functional form of the utility function or the priors over the variables but I think about a way to incorporate it.
